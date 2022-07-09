@@ -7,7 +7,6 @@
     <title>MyBatis List</title>
 </head>
 <body>
-${viewAll.get(0)}
-${viewAll.get(1)}
+${ viewAll }
 </body>
 </html>
