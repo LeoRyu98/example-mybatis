@@ -3,9 +3,9 @@ package mybatis.mapper;
 import mybatis.vo.BoardVO;
 import org.apache.ibatis.annotations.Mapper;
 
-import java.util.Optional;
+import java.util.List;
 
 @Mapper
 public interface BoardMapper {
-    Optional<BoardVO> viewAll();
+    List<BoardVO> viewAll();
 }

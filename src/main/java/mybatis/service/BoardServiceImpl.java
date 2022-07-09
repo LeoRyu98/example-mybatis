@@ -5,7 +5,7 @@ import mybatis.vo.BoardVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+import java.util.List;
 
 @Service
 public class BoardServiceImpl implements BoardService {
@@ -18,7 +18,7 @@ public class BoardServiceImpl implements BoardService {
     }
 
     @Override
-    public Optional<BoardVO> viewAll() {
+    public List<BoardVO> viewAll() {
         return mapper.viewAll();
     }
 }

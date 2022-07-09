@@ -7,19 +7,7 @@
     <title>MyBatis List</title>
 </head>
 <body>
-<table>
-    <tr>
-        <c:forEach var="view" items="${ viewAll }">
-            <td>
-                <b>${ view.cnt }</b>
-                <b>${ view.content }</b>
-                <b>${ view.regDate }</b>
-                <b>${ view.seq }</b>
-                <b>${ view.title }</b>
-                <b>${ view.writer }</b>
-            </td>
-        </c:forEach>
-    </tr>
-</table>
+${viewAll.get(0)}
+${viewAll.get(1)}
 </body>
 </html>

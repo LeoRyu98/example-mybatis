@@ -2,8 +2,8 @@ package mybatis.service;
 
 import mybatis.vo.BoardVO;
 
-import java.util.Optional;
+import java.util.List;
 
 public interface BoardService {
-    Optional<BoardVO> viewAll();
+    List<BoardVO> viewAll();
 }

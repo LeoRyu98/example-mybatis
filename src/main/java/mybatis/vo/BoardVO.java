@@ -55,4 +55,16 @@ public class BoardVO {
     public void setRegDate(Date regDate) {
         this.regDate = regDate;
     }
+
+    @Override
+    public String toString() {
+        return "BoardVO{" +
+                "seq=" + seq +
+                ", cnt=" + cnt +
+                ", title='" + title + '\'' +
+                ", writer='" + writer + '\'' +
+                ", content='" + content + '\'' +
+                ", regDate=" + regDate +
+                '}';
+    }
 }

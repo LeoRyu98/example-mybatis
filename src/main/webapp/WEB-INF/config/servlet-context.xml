@@ -10,7 +10,7 @@
 			 					 http://www.springframework.org/schema/context
 			 					 http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- @Controller 애노테이션 사용 가능 -->
+    <!-- @Controller 애노테이션을 가지고 있는 클래스들을 Controller 로 로딩 -->
     <annotation-driven/>
 
     <!-- Component Scan 패키지 설정 -->

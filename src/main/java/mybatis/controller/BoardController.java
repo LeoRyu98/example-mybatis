@@ -22,7 +22,7 @@ public class BoardController {
 
     @GetMapping("/board")
     public String board(Model model){
-        BoardVO boardList = service.viewAll().get();
+        List<BoardVO> boardList = service.viewAll();
         model.addAttribute("viewAll", boardList);
         return "board/all";
     }
